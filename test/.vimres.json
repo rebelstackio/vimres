@@ -1,0 +1,9 @@
+{
+	"viewports": [
+		{ "h":800, "w":500, "pr":2, "name":"generic_phone",
+			"transformation": {
+				"resize": { "w": 350, "h": 350 }
+			}
+		}
+	]
+}

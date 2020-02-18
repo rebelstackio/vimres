@@ -55,3 +55,17 @@ The vimres:picture tag allows designers to reference just the original source fi
 - https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 - https://www.quirksmode.org/mobile/viewports2.html
 
+
+## Local Dev Enviroment
+- set the npm and node version to 13
+```bash
+nvm install
+```
+- start devserver
+```bash
+npm start
+```
+- deploy project
+```bash
+npm run deploy
+```
