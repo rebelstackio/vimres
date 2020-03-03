@@ -11,6 +11,9 @@
 		"type": "git",
 		"url": "https://github.com/rebelstackio/vimres.git"
 	},
+	"bin": {
+		"vimres": "./index.js"
+	},
 	"keywords": [
 		"node-webasambly",
 		"services"
@@ -28,6 +31,7 @@
 		}
 	],
 	"dependencies": {
+		"chalk": "^3.0.0",
 		"request": "^2.88.2",
 		"sharp": "^0.24.1"
 	}
