@@ -1,0 +1,38 @@
+{
+	"name": "vimres",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_PATH=. node index.js",
+		"deploy": "npm publish --access=public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rebelstackio/vimres.git"
+	},
+	"bin": {
+		"vimres": "./index.js"
+	},
+	"keywords": [
+		"node-webasambly",
+		"services"
+	],
+	"contributors": [
+		{
+			"name": "Rein Petersen",
+			"email": "email@reinpetersen.com",
+			"url": "https://github.com/reinsbrain"
+		},
+		{
+			"name": "Osmar Reyes",
+			"email": "osmarreyesst@gmail.com",
+			"url": "https://github.com/oreyes1991"
+		}
+	],
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"request": "^2.88.2",
+		"sharp": "^0.24.1"
+	}
+}
