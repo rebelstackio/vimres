@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 const app = require('./lib/index');
-const chalk = require('chalk');
-
-const error = chalk.bold.red;
-const warning = chalk.keyword('orange');
+const { warning } = require('./lib/logers');
+const clear = require('clear');
 
 const init = getBoolArg('--init');
 if (!init) {
+    clear();
     app.vimres(process.cwd());
 } else {
+    clear();
     console.log('#> ' + warning('Init begin'))
 }
 

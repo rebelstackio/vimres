@@ -32,6 +32,8 @@
 	],
 	"dependencies": {
 		"chalk": "^3.0.0",
+		"clear": "^0.1.0",
+		"inquirer": "^7.0.5",
 		"request": "^2.88.2",
 		"sharp": "^0.24.1"
 	}
